@@ -6013,6 +6013,7 @@ class growatt_plugin(plugin_base):
         elif seriesnumber.startswith('RA1'):  invertertype = HYBRID | GEN3 | X1 # Hybrid SPH 3kW - 6kW
         elif seriesnumber.startswith('SPH'):  invertertype = HYBRID | GEN3 | X3 # Hybrid SPH 4kW - 10kW
         elif seriesnumber.startswith('YA1'):  invertertype = HYBRID | GEN3 | X3 # Hybrid SPH 4kW - 10kW 3P TL UP
+        elif seriesnumber.startswith('TPJ'):  invertertype = HYBRID | GEN3 | X3 # Hybrid SPH 4kW - 10kW 3P TL UP
         elif seriesnumber.startswith('AL1'):  invertertype = HYBRID | GEN4 | X1 # Hybrid TL-XH 2.5kW - 6kW (MIN)
         elif seriesnumber.startswith('DN1'):  invertertype = HYBRID | GEN4 | X3 # Hybrid TL3-XH (BP) 2.5kW - 10kW (MOD)
         elif seriesnumber.startswith('V'):  invertertype = HYBRID | GEN4 | X3 # Hybrid TL3-XH 2.5kW - 10kW (MOD)
