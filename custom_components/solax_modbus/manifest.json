@@ -1,14 +1,9 @@
 {
-  "domain": "solax_modbus",
-  "name": "SolaX Inverter Modbus",
-  "after_dependencies": ["modbus"],
-  "codeowners": ["@wills106"],
-  "config_flow": true,
+  "domain": "solax_by_solarsmart",
+  "name": "Solax by SolarSmart",
+  "version": "1.1",
+  "documentation": "https://github.com/Rasmusbangp/Solax-By-SolarSmart-NEW",
+  "requirements": [],
   "dependencies": [],
-  "documentation": "https://homeassistant-solax-modbus.readthedocs.io/",
-  "integration_type": "hub",
-  "iot_class": "local_polling",
-  "issue_tracker": "https://github.com/wills106/homsassistant-solax-modbus/issues",
-  "requirements": ["pymodbus==3.8.3"],
-  "version": "2025.01.8"
+  "codeowners": ["@Rasmusbangp"]
 }
